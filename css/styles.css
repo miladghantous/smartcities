@@ -1,0 +1,161 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.header-section{
+  padding-top: 2px;
+}
+.header-section p{
+  color: #990000; 
+  font-size: 1em;
+}
+.navbar {
+  margin: 0;
+  
+}
+.nav-item{
+  margin-right: 20px;
+  font-size: 0.8em;
+  color: black;
+  font-weight: 700;
+  
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+.info-section{
+  margin-top: 0;
+  padding:0;
+  
+}
+
+.imagetitle{
+  color:white; 
+  font-weight: bold; 
+  font-size: 6vw;
+  text-shadow: 0 0 10px black;
+}
+.imagetitle2{
+  color:white; 
+  font-weight: bold; 
+  font-size: 3vw;
+  text-shadow: 0 0 5px black;
+}
+.landingimage {
+ width: 100%;
+ margin:0;
+ padding:0;
+
+}
+.uni-section{
+  margin-top: 10px;
+  padding: 15px;
+  padding-top: 25px;
+  background-color: #eeeeee;
+}
+.previous-conference-section{
+  margin-top: 15px;
+  padding:15px;
+
+}
+.previous-conference-section img{
+  width: 30%;
+}
+.important-dates-section{
+  /*margin: 1% auto;*/
+}
+.timer-section{
+  background: white;
+  padding: 1.5em;
+}
+.footer-section {
+  background:rgb(73, 72, 72);
+  padding: 3em;
+  color: #fff;
+}
+.footer-section a{
+  text-decoration: none;
+  color: white;
+}
+.card-img-top {
+  border-radius: 50%;
+}
+.conf-btn{
+  width: 100%;
+  margin:5px;
+  font-weight: bold;
+}
+.conf-btn:hover{
+  opacity: 90%;
+}
+.coming-soon-section{
+  text-align: center;
+}
+.logo{
+  max-height: 100%;
+}
+.logo-link{
+  height: 100%;
+}
+.contacts-section{
+  margin: 2%;
+  font-size: 1.3rem;
+}
+.contacts-section a{
+  text-decoration: none;
+  color: #000;
+}
+.who-should-attend-section{
+  margin: 1% auto;
+}
+.workshops-section{
+  margin: 1% auto;
+}
+.tracks-section{
+  margin: 1% auto;
+}
+.tracks-section ul{
+list-style: none;
+}
+.schedule-section th{
+  background-color: #800020;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .nav-item {
+    font-size: medium;
+  }
+}
+@media (max-width: 770px){
+  .logo{
+    height: 100px;
+  }
+  .logo-link{
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .nav-item {
+    font-size: medium;
+  }
+  .coming-soon-section {
+    padding: 8em;
+    text-align: center;
+  }
+  .coming-soon-section h1 {
+    font-size: 3rem;
+  }
+  .committee-section {
+    margin-bottom: 2%;
+  }
+  .landingimage {
+    /*width:100%;*/
+    width: 100%;
+    
+  
+  }
+  .important-dates-section{
+   padding:5px;
+  }
+}
+
