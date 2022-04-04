@@ -26,9 +26,9 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="counter.js"></script>
+</head>
 
-</head>
-</head>
 
 <body>
     <section class="header-section">
@@ -40,7 +40,7 @@
                     </a>
                 </div>
 
-                <div class="col-md-8" style="text-align: center; padding: 5px;">
+                <div class="col-md-8" style="text-align: center; padding: 5px; padding-top:15px;">
                     <h2>
                         The 2nd International Conference on Smart Cities 4.0
                     </h2>
@@ -69,7 +69,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
-                            <a href="index.html" class="nav-item nav-link active" style="color: black;">Home</a>
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About the
                                     Conference</a>
@@ -96,7 +96,7 @@
                             </div>
 
                             <a href="#" class="nav-item nav-link">Keynote Speakers</a>
-
+                            <a href="#" class="nav-item nav-link">Author Guidelines</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Registration</a>
                                 <div class="dropdown-menu">
@@ -126,7 +126,7 @@
         <div class="container-fluid" style="margin: 0; padding:0"> 
 
             <div style="position:relative">
-            <img class="landingimage" src="images/cairo-smart-city-2.png"/>
+            <img class="landingimage" src="images/oldcairo-smart2.png"/>
             <div style="position: absolute; bottom:15%; width: 100%; text-align: center;">
             
                 <p class="imagetitle">
@@ -152,7 +152,8 @@
                         </button>
     </div>
     <div class="col-md-2">
-        <button type="button" class="conf-btn btn" style="color:white; background-color: #C0392B;"
+        <button type="button" class="conf-btn btn" style="color:white; background-color: #7f7567
+        ;"
         onclick="location.href='ict.html'">
         ICT Frontiers and Innovations
     </button></div>
@@ -284,8 +285,23 @@
             </p>
         </div>
     </section> -->
+
+<section id="counter">
+    <div class="container-fluid" style="text-align: center;">
+        <div class="row">
+    <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div></div>
+      </div>
+</section>
+
     <section class="important-dates-section info-section">
-        <div class="container" style="background-color: rgb(233, 230, 230); padding:20px;">
+        <div class="container" style="background-color: #caccc9; padding:20px;">
             <div class="row">
                 <div class="col-md-8">
                     <h4><strong>Important dates</strong></h4>
