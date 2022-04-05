@@ -11,6 +11,24 @@ body{
 .navbar {
   margin: 0;
   
+  
+}
+
+#countdown li{
+  display: inline-block;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: 900;
+  color: black;
+  
+  
+}
+#countdown li span{
+  display: block;
+  font-size: 3em;
+
+  
 }
 .nav-item{
   margin-right: 20px;
@@ -29,6 +47,20 @@ body{
   
 }
 
+
+.schedule-table {
+  border: 1px solid white;
+  width:100%;
+  padding: 5px;
+  font-size: 1em;
+  
+}
+.schedule-table  tr,td{
+  
+  padding: 7px;
+  
+  
+}
 .imagetitle{
   color:white; 
   font-weight: bold; 
@@ -39,7 +71,7 @@ body{
   color:white; 
   font-weight: bold; 
   font-size: 3vw;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px black;
 }
 .landingimage {
  width: 100%;
@@ -51,7 +83,25 @@ body{
   margin-top: 10px;
   padding: 15px;
   padding-top: 25px;
-  background-color: #eeeeee;
+  
+}
+.committeetitles{
+  font-weight: bold;
+  color:#daa30e;
+  font-size: 1.5em;;
+  padding:0;
+}
+.committee img{
+  border-radius: 5px;
+  width: 9em;
+  height: 9em;
+  
+}
+.venueimg{
+   width: 100%;
+  max-height: 500px;
+  margin:5px;
+  
 }
 .previous-conference-section{
   margin-top: 15px;
@@ -63,6 +113,7 @@ body{
 }
 .important-dates-section{
   /*margin: 1% auto;*/
+  margin-top: 20px;
 }
 .timer-section{
   background: white;
@@ -70,8 +121,11 @@ body{
 }
 .footer-section {
   background:rgb(73, 72, 72);
-  padding: 3em;
+  padding: 2em;
   color: #fff;
+  
+  bottom:0;
+  width: 100%;
 }
 .footer-section a{
   text-decoration: none;
@@ -83,6 +137,8 @@ body{
 .conf-btn{
   width: 100%;
   margin:5px;
+  height:11vh;
+  padding: 5px;
   font-weight: bold;
 }
 .conf-btn:hover{
@@ -106,7 +162,8 @@ body{
   color: #000;
 }
 .who-should-attend-section{
-  margin: 1% auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .workshops-section{
   margin: 1% auto;
@@ -117,9 +174,22 @@ body{
 .tracks-section ul{
 list-style: none;
 }
-.schedule-section th{
-  background-color: #800020;
-  color: white;
+
+.tracks {
+  line-height: 2.5em;
+}
+.schedule-section h3{
+  
+  font-weight: bold;
+  font-size: 1.5em;
+  
+  padding:10px;
+  margin: 10px;
+  
+}
+.schedule-section{
+  padding:0;
+  margin:0;
 }
 @media (max-width: 1000px) {
   .nav-item {
